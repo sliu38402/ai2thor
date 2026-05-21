@@ -130,3 +130,5 @@ tmp/
 
 objaverse/
 unity/Assets/Resources/ai2thor-objaverse
+
+.claude/
