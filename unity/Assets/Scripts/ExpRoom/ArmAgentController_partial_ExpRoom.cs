@@ -9,9 +9,9 @@ using RandomExtensions;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
-using UnityStandardAssets.CrossPlatformInput;
-using UnityStandardAssets.ImageEffects;
-using UnityStandardAssets.Utility;
+//using UnityStandardAssets.CrossPlatformInput;
+//using UnityStandardAssets.ImageEffects;
+//using UnityStandardAssets.Utility;
 
 namespace UnityStandardAssets.Characters.FirstPerson {
     public partial class KinovaArmAgentController : ArmAgentController {

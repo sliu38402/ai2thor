@@ -767,7 +767,7 @@ public static class SimUtil {
             sm.ReplaceGenerics();
             // save the scene and close it
             UnityEditor.SceneManagement.EditorSceneManager.SaveScene(openScene);
-            if (UnityEditor.SceneManagement.EditorSceneManager.loadedSceneCount > 1) {
+            if (UnityEngine.SceneManagement.SceneManager.sceneCount > 1) {
                 UnityEditor.SceneManagement.EditorSceneManager.CloseScene(openScene, true);
             }
         }
@@ -796,7 +796,7 @@ public static class SimUtil {
             sm.SceneNumber = i;
             // save the scene and close it
             UnityEditor.SceneManagement.EditorSceneManager.SaveScene(openScene);
-            if (UnityEditor.SceneManagement.EditorSceneManager.loadedSceneCount > 1) {
+            if (UnityEngine.SceneManagement.SceneManager.sceneCount > 1) {
                 UnityEditor.SceneManagement.EditorSceneManager.CloseScene(openScene, true);
             }
         }

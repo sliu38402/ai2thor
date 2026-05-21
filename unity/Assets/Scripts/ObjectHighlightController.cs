@@ -8,8 +8,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
-using UnityStandardAssets.CrossPlatformInput;
-using UnityStandardAssets.Utility;
+//using UnityStandardAssets.CrossPlatformInput;
+//using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Characters.FirstPerson {

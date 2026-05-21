@@ -1,0 +1,13 @@
+﻿<Solution>
+  <Project Path="MIConvexHull.csproj" />
+  <Project Path="UnitTests.csproj" />
+  <Project Path="MessagePack.csproj" />
+  <Project Path="AI2-THOR-Base.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="PriorityQueue.csproj" />
+  <Project Path="I360Render.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="MessagePack.Annotations.csproj" />
+  <Project Path="ClippingPlane.csproj" />
+</Solution>

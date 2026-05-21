@@ -9,9 +9,9 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.SceneManagement;
-using UnityStandardAssets.CrossPlatformInput;
-using UnityStandardAssets.ImageEffects;
-using UnityStandardAssets.Utility;
+//using UnityStandardAssets.CrossPlatformInput;
+//using UnityStandardAssets.ImageEffects;
+//using UnityStandardAssets.Utility;
 
 namespace UnityStandardAssets.Characters.FirstPerson {
     public class LocobotFPSAgentController : BaseFPSAgentController {

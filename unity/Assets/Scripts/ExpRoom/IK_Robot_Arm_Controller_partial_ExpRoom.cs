@@ -9,9 +9,9 @@ using RandomExtensions;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
-using UnityStandardAssets.CrossPlatformInput;
-using UnityStandardAssets.ImageEffects;
-using UnityStandardAssets.Utility;
+//using UnityStandardAssets.CrossPlatformInput;
+//using UnityStandardAssets.ImageEffects;
+//using UnityStandardAssets.Utility;
 
 public partial class IK_Robot_Arm_Controller : ArmController {
     public bool AttachObjectToArmWithFixedJoint(SimObjPhysics target) {

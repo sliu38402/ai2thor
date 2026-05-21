@@ -21,20 +21,20 @@ public abstract class ArmController : MonoBehaviour, Arm, MovableContinuous {
     [SerializeField]
     protected GameObject MagnetRenderer = null;
 
-    [SerializeField]
+    [field: SerializeField]
     public CapsuleCollider[] ArmCapsuleColliders { get; protected set; }
 
-    [SerializeField]
+    [field: SerializeField]
     public BoxCollider[] ArmBoxColliders { get; protected set; }
 
-    [SerializeField]
+    [field: SerializeField]
     public CapsuleCollider agentCapsuleCollider { get; protected set; } = null;
 
     [HideInInspector]
     public CollisionListener collisionListener;
 
     //
-    [SerializeField]
+    [field: SerializeField]
     public Dictionary<SimObjPhysics, HashSet<Collider>> heldObjects { get; protected set; } =
         new Dictionary<SimObjPhysics, HashSet<Collider>>();
 

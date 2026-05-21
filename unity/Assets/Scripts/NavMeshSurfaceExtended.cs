@@ -220,7 +220,7 @@ public class NavMeshSurfaceExtended : NavMeshSurface {
 #if UNITY_EDITOR
         if (!EditorApplication.isPlaying) {
             if (collectObjects == CollectObjects.All) {
-                UnityEditor.AI.NavMeshBuilder.CollectSourcesInStage(
+                UnityEditor.AI.NavMeshEditorHelpers.CollectSourcesInStage(
                     null,
                     layerMask,
                     useGeometry,
@@ -230,7 +230,7 @@ public class NavMeshSurfaceExtended : NavMeshSurface {
                     sources
                 );
             } else if (collectObjects == CollectObjects.Children) {
-                UnityEditor.AI.NavMeshBuilder.CollectSourcesInStage(
+                UnityEditor.AI.NavMeshEditorHelpers.CollectSourcesInStage(
                     transform,
                     layerMask,
                     useGeometry,
@@ -248,7 +248,7 @@ public class NavMeshSurfaceExtended : NavMeshSurface {
 
                 var worldBounds = GetWorldBounds(localToWorld, new Bounds(center, size));
 
-                UnityEditor.AI.NavMeshBuilder.CollectSourcesInStage(
+                UnityEditor.AI.NavMeshEditorHelpers.CollectSourcesInStage(
                     worldBounds,
                     layerMask,
                     useGeometry,

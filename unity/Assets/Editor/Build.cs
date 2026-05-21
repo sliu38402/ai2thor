@@ -16,7 +16,7 @@ public class Build
     static void InitializeCloudRendering()
     {
         PlayerSettings.SetApiCompatibilityLevel(
-            BuildTargetGroup.CloudRendering,
+            BuildTargetGroup.LinuxHeadlessSimulation,
             PlayerSettings.GetApiCompatibilityLevel(BuildTargetGroup.Standalone)
         );
         var graphicsTiers = new List<GraphicsTier>()
@@ -28,7 +28,7 @@ public class Build
         foreach (var graphicsTier in graphicsTiers)
         {
             EditorGraphicsSettings.SetTierSettings(
-                BuildTargetGroup.CloudRendering,
+                BuildTargetGroup.LinuxHeadlessSimulation,
                 graphicsTier,
                 EditorGraphicsSettings.GetTierSettings(BuildTargetGroup.Standalone, graphicsTier)
             );
@@ -53,7 +53,7 @@ public class Build
     static void CloudRendering()
     {
         InitializeCloudRendering();
-        build(GetBuildName(), BuildTargetGroup.CloudRendering, BuildTarget.CloudRendering);
+        build(GetBuildName(), BuildTargetGroup.LinuxHeadlessSimulation, BuildTarget.LinuxHeadlessSimulation);
     }
 
     static void WebGL()
